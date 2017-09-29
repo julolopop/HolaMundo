@@ -21,8 +21,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        //creamos un findbyid para porder escribir en el layout
         _txvMenssage = ((TextView)findViewById(R.id.txvMessage));
+        //con setTexto Escribimos en el TextView
         _txvMenssage.setText(R.string.bye);
 
     }
